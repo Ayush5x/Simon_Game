@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Merienda" , sans-serif;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(226, 217, 204, 0.753);
+}
+
+.navbar_items {
+    height: 60px;
+    width: 100vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: aliceblue;
+    background: #000;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.logo {
+    height: 40px;
+}
+
+.game_name {
+    position: absolute;
+    left: 45px;
+
+}
+
+.info_section {
+    position: relative;
+    right: 15px;
+
+}
+
+footer {
+    height: 45px ;
+    width: 100vw;
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    color: aliceblue;
+}
+
+
+.btn{
+    height: 150px; 
+    width: 150px;
+    border: 7px solid ;
+    border-radius: 20px;
+    margin: 5px;
+ }
+ .btn_container{
+     display: flex;
+     justify-content: center;
+     
+ }
+ .orange{
+     background-color: #f99b45;
+ }
+ .hot_pink{
+     background-color: #d95980;
+ }
+ 
+ .blue{
+     background-color: #819ff9;
+ }
+ .dark_cyan{
+     background-color: #63aac0;
+ }
+
+ .btn_logo {
+    height: 50px;
+    width: 70px;
+    position: relative;
+    top: 30px;
+ }
+ 
+.flash{
+ 
+    background-color: white;
+}
+.userflash {
+    background-color: rgb(0, 128, 60);
+}
+
+.model_wraper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     opacity: 0; 
+     pointer-events: none;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.model_container {
+    height: 300px;
+    width: 400px;
+    background-color: rgb(214, 199, 171);
+    border-radius: 9px;
+    transform: translateY(-70%);
+    transition: all 0.5s ease-in-out;
+}
+
+.active {
+    opacity: 1;
+    pointer-events: auto;
+    
+}
+
+.model_wraper.active .container {
+    transform: translateY(0px);
+}
+
+.close {
+    position: relative;
+    left: 180px;
+}
+.close:hover {
+
+    color: red;
+}
+
