@@ -1,7 +1,7 @@
 # Simon_Game
 🧠🌿Test your memory and attention with this interactive Pattern Memory Game!
 
-/////////////////////////////////////////////////////////////////////////////
+<----------------------------------------------------------------------------------------------------------->
 🧠 Pattern Sequences Memory Game
 
 This is a memory-based game where users are challenged to replicate an increasingly complex sequence of colors. 
