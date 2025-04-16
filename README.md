@@ -21,5 +21,5 @@ Each correct input adds a new step to the sequence. The game ends when the user 
 
 
 
-Ideal for practicing memory skills or building as a foundation for more advanced memory games.
+Ideal for practicing memory skills or building as a foundation for more advanced memory games.......
 
